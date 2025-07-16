@@ -1,0 +1,43 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev --dotenv .env.zh --host",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@formkit/auto-animate": "^0.8.2",
+    "@nuxt/icon": "1.15.0",
+    "@nuxt/ui": "^3.2.0",
+    "@nuxtjs/device": "3.2.4",
+    "@nuxtjs/i18n": "9.5.6",
+    "@pinia/nuxt": "^0.11.1",
+    "nuxt": "^3.17.7",
+    "pinia": "^3.0.3",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.14.1",
+    "@iconify-json/ant-design": "^1",
+    "@iconify-json/ep": "^1.2.1",
+    "@iconify-json/lucide": "^1.2.57",
+    "@iconify-json/uil": "^1.2.3",
+    "@nuxt/eslint": "^1.5.2",
+    "@tailwindcss/vite": "^4.1.11",
+    "@vueuse/core": "^13.5.0",
+    "@vueuse/nuxt": "13.5.0",
+    "eslint": "^9.31.0",
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "sass": "^1.89.2",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.8.3",
+    "vue-tsc": "^3.0.1"
+  }
+}
